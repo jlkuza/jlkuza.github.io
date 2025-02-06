@@ -6,35 +6,35 @@
     <description>Recent content in Projets on Portfolio</description>
     <generator>Hugo</generator>
     <language>fr_FR</language>
-    <lastBuildDate>Fri, 09 Dec 2022 19:53:33 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 06 Feb 2025 22:53:58 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/projets/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Render Math With Mathjax</title>
-      <link>http://localhost:1313/projets/math/</link>
-      <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
-      <guid>http://localhost:1313/projets/math/</guid>
-      <description>&lt;h2 id=&#34;mathjax&#34;&gt;Mathjax&lt;/h2&gt;&#xA;&lt;p&gt;Math equations can be rendered using &lt;a href=&#34;https://www.mathjax.org&#34;&gt;Mathjax&lt;/a&gt; syntax with AMS symbol support.&lt;/p&gt;&#xA;&lt;p&gt;Optionally enable this on a per-page basis by adding &lt;code&gt;mathjax: true&lt;/code&gt; to your frontmatter.&lt;/p&gt;&#xA;&lt;p&gt;Then, use &lt;code&gt;$$ ... $$&lt;/code&gt; on a line by itself to render a block equation:&lt;/p&gt;&#xA;&lt;p&gt;$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &amp;lt; \text{negligible} $$&lt;/p&gt;&#xA;&lt;p&gt;The raw version is:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &amp;lt; \text{negligible} $$&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Write in-line equations with &lt;code&gt;\\( ... \\)&lt;/code&gt; , like \( x^n / y \) . It&amp;rsquo;s easy!&lt;/p&gt;</description>
+      <title>AP SIO 1 : Création d&#39;un site avec Hugo et déploiement avec Github</title>
+      <link>http://localhost:1313/projets/hugo/</link>
+      <pubDate>Thu, 06 Feb 2025 22:53:58 +0530</pubDate>
+      <guid>http://localhost:1313/projets/hugo/</guid>
+      <description>&lt;h2 id=&#34;i-présentation-du-projet&#34;&gt;I. Présentation du projet&lt;/h2&gt;&#xA;&lt;p&gt;Lors de l’épreuve E5 du BTS, je vous présenter un portfolio qui contient les réalisations faites au cours de ma formation. Au cours du 1er semestre, j&amp;rsquo;ai vu comment le faire simplement avec html. Cette fois-ci je vais devoir installer un environnement permettant de faire tourner le framework Hugo. Hugo permet de générer des sites statiques simplement. Il fournit également de nombreux thèmes.&lt;/p&gt;&#xA;&lt;p&gt;j&amp;rsquo;ai donc créer mon portfolio avec un générateur de site statique puis l’héberger sur GitHub et finalement le déployer automatiquement sur les Github Pages.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Markdown Syntax</title>
-      <link>http://localhost:1313/projets/markdown-syntax/</link>
-      <pubDate>Sat, 03 Apr 2021 23:29:21 +0530</pubDate>
-      <guid>http://localhost:1313/projets/markdown-syntax/</guid>
-      <description>&lt;h2 id=&#34;paragraph&#34;&gt;Paragraph&lt;/h2&gt;&#xA;&lt;p&gt;Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.&lt;/p&gt;</description>
+      <title>AP SIO 1 Découverte et utilisation de Java Script</title>
+      <link>http://localhost:1313/projets/java_script/</link>
+      <pubDate>Tue, 01 Oct 2024 23:29:21 +0530</pubDate>
+      <guid>http://localhost:1313/projets/java_script/</guid>
+      <description>&lt;h2 id=&#34;java-script&#34;&gt;Java Script&lt;/h2&gt;&#xA;&lt;p&gt;Vous travaillez pour une entreprise qui souhaite se lancer dans les petits jeux ludiques en ligne. II. Mission 1 : Les besoins&lt;/p&gt;&#xA;&lt;p&gt;On vous demande de coder en JavaScript un jeu dont le principe est simple :&#xA;il faut cliquer sur une image.&#xA;à chaque clic le score augmente de 1.&#xA;pour arriver au niveau 1, il faut 15 clics, puis pour chaque niveau suivant on multiplie par 2 le nombre de clics nécessaires au niveau précédent (niveau 1 : 15 clics, niveau 2 : 30 clics, niveau 3 : 60 clics, niveau 4 : 120 clics, …).&#xA;a chaque fois que l’on arrive au niveau supérieur, le nombre de clics actuel devient le nombre de clics auquel on retire le nombre de clics utilisés pour passer au niveau supérieur.&#xA;On veut que les joueurs puissent se connecter avec leur nom / mot de passe grâce à un formulaire de connexion.&#xA;Lorsqu’un joueur se connecte, le jeu s’initialise avec le nombre de clics et le niveau qui correspondent à son compte dans la base de données.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Portfolio Hugo profile</title>
-      <link>http://localhost:1313/projets/emoji-support/</link>
-      <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
-      <guid>http://localhost:1313/projets/emoji-support/</guid>
-      <description>&lt;h2 id=&#34;portfolio&#34;&gt;Portfolio&lt;/h2&gt;&#xA;&lt;p&gt;Mon premier projets en tant que BTS SIO SISR était de créer mon portfolio sur linux Ubuntu avec hugo profile&lt;/p&gt;</description>
+      <title>AP SIO 1 : Création d&#39;un formulaire et traitement avec du PHP</title>
+      <link>http://localhost:1313/projets/php/</link>
+      <pubDate>Tue, 01 Oct 2024 19:53:33 +0530</pubDate>
+      <guid>http://localhost:1313/projets/php/</guid>
+      <description>&lt;h2 id=&#34;i---objectifs-de-lactivité&#34;&gt;I - Objectifs de l’activité&lt;/h2&gt;&#xA;&lt;p&gt;Réaliser un formulaire en HTML et CSS en respectant une charte graphique.&lt;/p&gt;&#xA;&lt;p&gt;Respecter les normes et standards du W3C en utilisant les outils de validation du code puis en corrigeant les erreurs.&lt;/p&gt;&#xA;&lt;p&gt;Découverte du langage PHP et de son exécution.&lt;/p&gt;&#xA;&lt;p&gt;Traiter un formulaire HTML en PHP.&lt;/p&gt;&#xA;&lt;p&gt;Débogage d’erreurs en PHP.&lt;/p&gt;&#xA;&lt;p&gt;Structures conditionnelles en PHP.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Placeholder Text</title>
-      <link>http://localhost:1313/projets/placeholder-text/</link>
-      <pubDate>Sat, 03 Apr 2021 22:41:10 +0530</pubDate>
-      <guid>http://localhost:1313/projets/placeholder-text/</guid>
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;&#xA;&lt;p&gt;Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Exierant elisi ambit vivere dedere&lt;/li&gt;&#xA;&lt;li&gt;Duce pollice&lt;/li&gt;&#xA;&lt;li&gt;Eris modo&lt;/li&gt;&#xA;&lt;li&gt;Spargitque ferrea quos palude&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Rursus nulli murmur; hastile inridet ut ab gravi sententia! Nomine potitus silentia flumen, sustinet placuit petis in dilapsa erat sunt. Atria tractus malis.&lt;/p&gt;</description>
+      <title>AP SIO 1 : Création d&#39;une interface en C#</title>
+      <link>http://localhost:1313/projets/c%23/</link>
+      <pubDate>Tue, 01 Oct 2024 19:53:33 +0530</pubDate>
+      <guid>http://localhost:1313/projets/c%23/</guid>
+      <description>&lt;h2 id=&#34;i---présentation-du-contexte&#34;&gt;I - Présentation du contexte&lt;/h2&gt;&#xA;&lt;p&gt;La généralisation des nouvelles technologies dans notre quotidien et dans le monde professionnel nécessite que chaque individu soit identifié de manière unique et sûre. En effet, cela est indispensable si l’on veut avoir une bonne traçabilité des actions de chaque utilisateur et ainsi de pouvoir garantir une bonne confidentialité.&lt;/p&gt;&#xA;&lt;p&gt;L’identification permet donc de connaître l’identité d’une personne alors que l’authentification permet de vérifier cette identité.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

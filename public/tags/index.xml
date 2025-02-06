@@ -6,76 +6,62 @@
     <description>Recent content in Tags on Portfolio</description>
     <generator>Hugo</generator>
     <language>fr_FR</language>
-    <lastBuildDate>Fri, 09 Dec 2022 19:53:33 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 06 Feb 2025 22:53:58 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>AP</title>
-      <link>http://localhost:1313/tags/ap/</link>
-      <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
-      <guid>http://localhost:1313/tags/ap/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>C#</title>
-      <link>http://localhost:1313/tags/c%23/</link>
-      <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
-      <guid>http://localhost:1313/tags/c%23/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>SIO 1</title>
-      <link>http://localhost:1313/tags/sio-1/</link>
-      <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
-      <guid>http://localhost:1313/tags/sio-1/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Java Script</title>
-      <link>http://localhost:1313/tags/java-script/</link>
-      <pubDate>Sat, 03 Apr 2021 23:29:21 +0530</pubDate>
-      <guid>http://localhost:1313/tags/java-script/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Linux</title>
       <link>http://localhost:1313/tags/linux/</link>
-      <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>Portfolio</title>
       <link>http://localhost:1313/tags/portfolio/</link>
-      <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/portfolio/</guid>
       <description></description>
     </item>
     <item>
       <title>Ubuntu</title>
       <link>http://localhost:1313/tags/ubuntu/</link>
-      <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/ubuntu/</guid>
       <description></description>
     </item>
     <item>
-      <title>Example</title>
-      <link>http://localhost:1313/tags/example/</link>
-      <pubDate>Sat, 03 Apr 2021 22:41:10 +0530</pubDate>
-      <guid>http://localhost:1313/tags/example/</guid>
+      <title>AP</title>
+      <link>http://localhost:1313/tags/ap/</link>
+      <pubDate>Tue, 01 Oct 2024 23:29:21 +0530</pubDate>
+      <guid>http://localhost:1313/tags/ap/</guid>
       <description></description>
     </item>
     <item>
-      <title>Placeholder Text</title>
-      <link>http://localhost:1313/tags/placeholder-text/</link>
-      <pubDate>Sat, 03 Apr 2021 22:41:10 +0530</pubDate>
-      <guid>http://localhost:1313/tags/placeholder-text/</guid>
+      <title>Java Script</title>
+      <link>http://localhost:1313/tags/java-script/</link>
+      <pubDate>Tue, 01 Oct 2024 23:29:21 +0530</pubDate>
+      <guid>http://localhost:1313/tags/java-script/</guid>
       <description></description>
     </item>
     <item>
-      <title>Sample</title>
-      <link>http://localhost:1313/tags/sample/</link>
-      <pubDate>Sat, 03 Apr 2021 22:41:10 +0530</pubDate>
-      <guid>http://localhost:1313/tags/sample/</guid>
+      <title>SIO 1</title>
+      <link>http://localhost:1313/tags/sio-1/</link>
+      <pubDate>Tue, 01 Oct 2024 23:29:21 +0530</pubDate>
+      <guid>http://localhost:1313/tags/sio-1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>C#</title>
+      <link>http://localhost:1313/tags/c%23/</link>
+      <pubDate>Tue, 01 Oct 2024 19:53:33 +0530</pubDate>
+      <guid>http://localhost:1313/tags/c%23/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Php</title>
+      <link>http://localhost:1313/tags/php/</link>
+      <pubDate>Tue, 01 Oct 2024 19:53:33 +0530</pubDate>
+      <guid>http://localhost:1313/tags/php/</guid>
       <description></description>
     </item>
   </channel>

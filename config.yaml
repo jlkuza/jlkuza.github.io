@@ -1,0 +1,404 @@
+baseURL: "https://jlkuza.github.io"
+languageCode: "fr_FR"
+title: "Portfolio"
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+Paginate: 3
+enableRobotsTXT: true
+# disqusShortname: your-disqus-shortname
+# googleAnalytics: G-MEASUREMENT_ID
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+Menus:
+  main:
+    - identifier: AP
+      name: AP et Projets
+      title: AP et Projets
+      url: /projets/
+      weight: 1
+    - identifier: Stages
+      name: Stages
+      title: Stages
+      url: /stages/
+      weight: 2
+    #- identifier: gallery
+     # name: Gallery
+      #title: Blog posts
+      #url: /gallery
+      #weight: 2
+    #Dropdown menu
+    # - identifier: dropdown
+    #   title: Example dropdown menu
+    #   name: Dropdown
+    #   weight: 3
+    # - identifier: dropdown1
+    #   title: example dropdown 1
+    #   name: example 1
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 1
+    # - identifier: dropdown2
+    #   title: example dropdown 2
+    #   name: example 2
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 2
+
+params:
+  title: "Mon portfolio"
+  description: Text about my cool site
+  # staticPath: ""  # The path to serve the static files from
+  favicon: "/fav.png"
+
+  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
+  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
+  # Note the lack of "" in true, it should be of boolean type.
+  useBootstrapCDN: false
+
+  # If you want to load dynamically responsive images from Cloudinary
+  # This requires your images to be uploaded + hosted on Cloudinary
+  # Uncomment and change YOUR_CLOUD_NAME to the Cloud Name in your Cloudinary console
+  # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
+
+  # Whether to add mathjax support on all pages. Alternatively, you can opt-in per page by adding `mathjax: true` in the frontmatter.
+  mathjax: false
+
+  # Whether the fade animations on the home page will be enabled
+  animate: true
+
+  theme:
+    # disableThemeToggle: true
+    # defaultTheme: "light" # dark
+
+  font:
+    fontSize: 1rem # default: 1rem
+    fontWeight: 400 # default: 400
+    lineHeight: 1.5 # default: 1.5
+    textAlign: left # default: left
+
+  # color preference
+  # When using hex codes for colors, quotations must be used along with the # sign
+  # color:
+  #   textColor: "#343a40"
+  #   secondaryTextColor: "#6c757d"
+  #   textLinkColor: "#007bff"
+  #   backgroundColor: "#eaedf0"
+  #   secondaryBackgroundColor: "#64ffda1a"
+  #   primaryColor: "#007bff"
+  #   secondaryColor: "#f8f9fa"
+
+  #   darkmode:
+  #     textColor: "#e4e6eb"
+  #     secondaryTextColor: "#b0b3b8"
+  #     textLinkColor: "#ffffff"
+  #     backgroundColor: "#18191a"
+  #     secondaryBackgroundColor: "#212529"
+  #     primaryColor: "#ffffff"
+  #     secondaryColor: "#212529"
+
+  # If you want to customize the menu, you can change it here
+  navbar:
+    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    # showBrandLogo: false # Show brand logo in nav bar | default is true
+    brandName: "Hugo Profile" # Brand name for the brand | default is the title variable
+    disableSearch: false
+    # searchPlaceholder: "Search"
+    stickyNavBar:
+      enable : true
+      showOnScrollUp : true
+    enableSeparator: false
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Bonjour, je m'appelle"
+    title: "Jérôme."
+    subtitle: "Voici mon portfolio"
+    content: "Un développeur d'applications Web passionné. J'ai tendance à utiliser les technologies Web modernes pour créer des sites Web qui ont fière allure, qui sont fantastiques et qui fonctionnent correctement."
+    image: /images/herohomme.svg
+    bottomImage:
+      enable: true
+    # roundImage: true # Make hero image circular | default false
+    button:
+      enable: true
+      name: "Résume"
+      url: "#"
+      download: true
+      newPage: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/jlkuza
+        - icon: fab fa-x-twitter
+          url: https://example.com
+      customIcons:
+        - icon: /fav.png
+          url: "https://example.com"
+
+  # About
+  about:
+    enable: true
+    title: "À propos de moi"
+    image: "/images/herohomme.svg"
+    content: |-
+      Je suis un étudiant SISR passionné par les nouvelles technologies . J'ai un BAC PRO Système Numerique et j'ai un fort intérêt pour l'intersection de la technologie . Je travaille actuellement en tant que  Étudiant au lycée Bouchaurdon en BTS SIO Option SISR à Chaumont, en France.
+
+      
+    skills:
+      enable: true
+      title: "Voici quelques technologies avec lesquelles j'ai travaillé récemment :"
+      items:
+        - "Windows Serveur"
+        - "Linux Ubuntu"
+        - "Virtual Box"
+        - "à definir"
+        - "à definir"
+        - "à definir"
+
+  # Experience
+  experience:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - job: "Maintenance/depannage informatique "
+        company: "Idelik"
+        companyUrl: "https://www.idelik.fr/"
+        date: "25 Mars 2024 - 26 Avril"
+        featuredLink:
+          enable: false
+          name: "View the project"
+          url: "https://example.com"
+        content: "J'ai réalisé des échanges Hardware et des tests de performance des ordinateurs de particulier en suivant les conseils de mon maitre de stage."
+
+      - job: "Conseiller informatique"
+        company: "Leclerc Langres"
+        companyUrl: "https://example.com"
+        date: "11 Decembre 2023 - 29 Decembre 2023"
+        featuredLink:
+          enable: false
+          url: "https://example.com"
+        info:
+          enable: true
+          content: conseil en vente de matériel informatique et électro-ménagers Livraison et mise en service en clientèle
+        content: |
+          Conseil en vente de matériel informatique et électro-ménagers Livraison et mise en service en clientèle
+
+         
+
+      - job: "Assistant TICE"
+        company: "Lycée Denis Diderot"
+        companyUrl: ""
+        date: "15 Mai 2023 - 09 Juin 2023"
+        info:
+          enable: false
+        featuredLink:
+          enable: false
+          url: "https://example.com"
+        content: |
+          J'ai principalement dépanné le matériel du lycée et les ordinateurs des élèves grâce à l'autonomie acquise par les conseils de mon maitre de stage.
+
+          
+      - job: "Assistant TICE"
+        company: "Lycée Denis Diderot"
+        companyUrl: ""
+        date: "16 Janvier 2023 - 10 février 2023"
+        featuredLink:
+          enable: false
+          url: "https://example.com"
+        content: |
+          J'ai effectué de la maintenance réseaux et de l'aménagement des différents postes du lycée en suivant les conseils de mon maitre de stage.
+
+          
+
+      #- job: "Product Designer"
+       # company: "Google"
+       #	companyUrl: "https://example.com"
+        # date: "Feb 2016 - Mar 2017"
+        #content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+
+  # Education
+  education:
+    enable: true
+    # title: "Custom Name"
+    index: false
+    items:
+      - title: "Baccalauréat Professionel Système Numerique"
+        school:
+          name: "Lycée Eugene Decomble"
+          url: "https://lyc-decomble.monbureaunumerique.fr/"
+        date: "2022 - 2024"
+        GPA: "Bien 15.76/20"
+        content: |-
+      
+      - title: "Brevet des Colleges"
+        school:
+          name: "Colleges Les Franchises"
+          url: "https://clg-les-franchises.monbureaunumerique.fr/"
+        date: "2018 - 2021"
+        
+        content: |-
+          
+        #featuredLink:
+         # enable: true
+          #name: "My academic record"
+          #url: "https://example.com"
+      #- title: "High School"
+       # school:
+        #  name: "Thomas Jefferson High School for Science and Technology."
+         # url: "https://example.org"
+        #GPA: "4.2 out of 5.0"
+        #featuredLink:
+         # enable: true
+          #url: "https://example.com"
+
+  # Achievements
+  achievements:
+    enable: true
+    title: "Certifications"
+    items:
+      - title: Google kickstart runner
+        content: I solved all problems with optimal solution.
+        url: https://example.com
+        image: /images/achievment.jpg
+      - title: Facebook Hackathon Winner
+        content: Developed a product using Artificial Intelligence.
+        image: /images/achievment.jpg
+      - title: Hugo Profile
+        content: Developed a theme and getting 1K+ downloads per month.
+        url: "https://github.com/gurusabarish/hugo-profile"
+        image: /images/achievment.jpg
+      - title: Microsoft Imagine Runner
+        content: We are developed a product which can help others.
+      - title: Google Summer of Code
+        content: Contributed to a open source project.
+        url: https://example.com
+
+  # projects
+  projects:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - title: À definir 
+        content: À definir.
+        image: /images/projects/profile1.png
+        featured:
+          name: Demo
+          link: https://hugo-profile.netlify.app
+        badges:
+          - "À definir"
+          - "À definir"
+          - "À definir"
+        links:
+          - icon: fa fa-envelope
+            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          - icon: fab fa-github
+            url: https://github.com/gurusabarish/hugo-profile
+          - icon: fab fa-twitter
+            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+
+      - title: À definir
+        content: À definir.
+        image: /images/projects/profile1.png
+        featured:
+          name: Demo
+          link: https://django-converter.herokuapp.com
+        badges:
+          - "À definir"
+          - "À definir"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/gurusabarish/converter
+
+      - title: À definir
+        content: À definir.
+        image: /images/projects/profile1.png
+        featured:
+          name: Demo V2
+          link: https://hugo-profile-2.netlify.app
+        badges:
+          - "À definir"
+          - "À definir"
+          - "À definir"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/gurusabarish/HugoProfileV2
+
+  #Contact
+  contact:
+    enable: true
+    title: "Contact"
+    content: Ma boîte de réception est toujours ouverte. Que vous ayez une question ou que vous souhaitiez simplement vous dire bonjour, je ferai de mon mieux pour vous répondre !
+    btnName: Envoyer un mail
+    btnLink: mailto:jerome.ben.basset@gmail.com
+    # formspree:
+    #   enable: true # `contact.email` value will be ignored
+    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
+    #   emailCaption: "Enter your email address"
+    #   messageCaption: "Enter your message here"
+    #   messageRows: 5
+
+  footer:
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: Postes récents
+      enable: true
+      disableFeaturedImage: false
+    socialNetworks:
+      github: https://github.com/jlkuza
+      linkedin: https://linkedin.com
+      twitter: https://twitter.com
+      instagram: https://instagram.com
+      facebook: https://facebook.com
+
+  # List pages like blogs and posts
+  listPages:
+    disableFeaturedImage: false
+
+  # Single pages like blog and post
+  singlePages:
+    socialShare: true
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+    tags:
+      openInNewTab: true
+
+  # For translations
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "Tous droits réservés"
+    pageNotFound: "Page introuvable"
+    emailText: "Consultez ce site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
+
+  #customScripts: -| # You can add custom scripts which will be added before </body> tag
+  #  <script type="text/javascript"><!-- any script here --></script>

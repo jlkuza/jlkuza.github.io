@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bloc 3 on Portfolio</title>
+    <link>http://localhost:1313/tags/bloc-3/</link>
+    <description>Recent content in Bloc 3 on Portfolio</description>
+    <generator>Hugo</generator>
+    <language>fr_FR</language>
+    <lastBuildDate>Sat, 20 Jan 2024 10:38:33 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/bloc-3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bloc 3 - Projet Stormshield</title>
+      <link>http://localhost:1313/projets/stormshield/</link>
+      <pubDate>Sat, 20 Jan 2024 10:38:33 +0100</pubDate>
+      <guid>http://localhost:1313/projets/stormshield/</guid>
+      <description>&lt;h2 id=&#34;i---contexte&#34;&gt;I - Contexte&lt;/h2&gt;&#xA;&lt;p&gt;Née en décembre 2010, la société CUB est une entreprise spécialisée dans l’incubation de startups partageant les mêmes valeurs de solidarité et de développement durable. Au travers de sa plate-forme web, CUB permet à des professionnels d’accéder à des espaces de travail dédiés : salles de réunion, de formation ou de séminaire.&lt;/p&gt;&#xA;&lt;p&gt;Le concept novateur de CUB repose sur une démarche collaborative de type « BtoB », en effet CUB propose aux entreprises qui disposent d’espaces inoccupés de les louer à l’heure ou à la journée.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bloc 3 - Projet SIEM avec Wazuh</title>
+      <link>http://localhost:1313/projets/wazuh/</link>
+      <pubDate>Thu, 11 Jan 2024 14:13:33 +0100</pubDate>
+      <guid>http://localhost:1313/projets/wazuh/</guid>
+      <description>&lt;h2 id=&#34;i---contexte&#34;&gt;I - Contexte&lt;/h2&gt;&#xA;&lt;p&gt;Vous êtes technicien au sein de l’entreprise CUB et vous avez la charge d’une agence. On souhaite sécuriser le réseau et notamment les machines serveurs de chaque agence. Pour cela il a été décidé de mettre en place un SIEM (Security Information and Event Management) et un EDR sur les machines du réseau de l’entreprise CUB.&lt;/p&gt;&#xA;&lt;h2 id=&#34;ii---les-besoins&#34;&gt;II - Les besoins&lt;/h2&gt;&#xA;&lt;p&gt;Vous allez devoir mettre en place un SIEM dans le réseau CUB afin d’analyser les logs des différentes machines serveurs. Vous devrez également mettre en place un EDR sur votre Windows Server 2022.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

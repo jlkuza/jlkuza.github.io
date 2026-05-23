@@ -2,6 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/stages/stage-sio1/</loc>
+    <lastmod>2024-02-06T08:25:33+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/stages/stage-sio2/</loc>
+    <lastmod>2024-02-05T15:35:33+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projets/ap-clic/</loc>
+    <lastmod>2024-01-09T12:40:33+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projets/ap-hugo/</loc>
+    <lastmod>2024-01-11T15:15:33+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projets/ap-fog/</loc>
+    <lastmod>2024-01-17T16:55:33+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projets/ap-win-server/</loc>
+    <lastmod>2024-01-17T17:19:33+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projets/ap-zabbix/</loc>
+    <lastmod>2024-01-09T13:35:33+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projets/ap-veeam/</loc>
+    <lastmod>2024-01-11T14:08:33+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projets/stormshield/</loc>
+    <lastmod>2024-01-20T10:38:33+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projets/wazuh/</loc>
+    <lastmod>2024-01-11T14:13:33+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/projets/hugo/</loc>
     <lastmod>2025-02-06T22:53:58+05:30</lastmod>
   </url><url>
@@ -46,6 +76,15 @@
   </url><url>
     <loc>http://localhost:1313/tags/php/</loc>
     <lastmod>2024-10-01T19:53:33+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/stage/</loc>
+    <lastmod>2024-02-06T08:25:33+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/stages/</loc>
+    <lastmod>2024-02-06T08:25:33+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/bloc-3/</loc>
+    <lastmod>2024-01-20T10:38:33+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/gallery/</loc>
     <lastmod>2022-06-25T18:35:46+05:30</lastmod>

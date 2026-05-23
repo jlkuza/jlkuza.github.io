@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stage on Portfolio</title>
+    <link>http://localhost:1313/tags/stage/</link>
+    <description>Recent content in Stage on Portfolio</description>
+    <generator>Hugo</generator>
+    <language>fr_FR</language>
+    <lastBuildDate>Tue, 06 Feb 2024 08:25:33 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/stage/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stage SIO 1 - SAM Informatique</title>
+      <link>http://localhost:1313/stages/stage-sio1/</link>
+      <pubDate>Tue, 06 Feb 2024 08:25:33 +0100</pubDate>
+      <guid>http://localhost:1313/stages/stage-sio1/</guid>
+      <description>&lt;h2 id=&#34;i---présentation-du-contexte&#34;&gt;I - Présentation du contexte&lt;/h2&gt;&#xA;&lt;p&gt;J&amp;rsquo;ai effectué mon stage au sein de la société SAM Informatique.&lt;/p&gt;&#xA;&lt;h2 id=&#34;ii---les-missions&#34;&gt;II - Les missions&lt;/h2&gt;&#xA;&lt;p&gt;Pendant ce stage, j&amp;rsquo;ai sorti des ordinateurs des cartons.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Stage SIO 2 - Communauté d&#39;agglomération de Saint-Dizier</title>
+      <link>http://localhost:1313/stages/stage-sio2/</link>
+      <pubDate>Mon, 05 Feb 2024 15:35:33 +0100</pubDate>
+      <guid>http://localhost:1313/stages/stage-sio2/</guid>
+      <description>&lt;h2 id=&#34;i---présentation-du-contexte&#34;&gt;I - Présentation du contexte&lt;/h2&gt;&#xA;&lt;p&gt;J&amp;rsquo;ai effectué mon stage au sein de DSI de la communauté d&amp;rsquo;agglomération de Saint-Dizier.&lt;/p&gt;&#xA;&lt;h2 id=&#34;ii---les-missions&#34;&gt;II - Les missions&lt;/h2&gt;&#xA;&lt;p&gt;Pendant ce stage, j&amp;rsquo;ai fait &amp;hellip;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

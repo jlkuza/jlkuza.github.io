@@ -9,6 +9,48 @@
     <lastBuildDate>Tue, 01 Oct 2024 23:29:21 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/ap/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>AP SIO 1 : Découvrir et utiliser le JavaScript</title>
+      <link>http://localhost:1313/projets/ap-clic/</link>
+      <pubDate>Tue, 09 Jan 2024 12:40:33 +0100</pubDate>
+      <guid>http://localhost:1313/projets/ap-clic/</guid>
+      <description>&lt;h2 id=&#34;i---présentation-du-contexte&#34;&gt;I - Présentation du contexte&lt;/h2&gt;&#xA;&lt;p&gt;Vous travaillez pour une entreprise qui souhaite se lancer dans les petits jeux ludiques en ligne.&#xA;II. Mission 1 : Les besoins&lt;/p&gt;&#xA;&lt;p&gt;On vous demande de coder en JavaScript un jeu dont le principe est simple :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;il faut cliquer sur une image.&lt;/li&gt;&#xA;&lt;li&gt;à chaque clic le score augmente de 1.&lt;/li&gt;&#xA;&lt;li&gt;pour arriver au niveau 1, il faut 15 clics, puis pour chaque niveau suivant on multiplie par 2 le nombre de clics nécessaires au niveau précédent (niveau 1 : 15 clics, niveau 2 : 30 clics, niveau 3 : 60 clics, niveau 4 : 120 clics, …).&lt;/li&gt;&#xA;&lt;li&gt;a chaque fois que l’on arrive au niveau supérieur, le nombre de clics actuel devient le nombre de clics auquel on retire le nombre de clics utilisés pour passer au niveau supérieur.&lt;/li&gt;&#xA;&lt;li&gt;On veut que les joueurs puissent se connecter avec leur nom / mot de passe grâce à un formulaire de connexion.&lt;/li&gt;&#xA;&lt;li&gt;Lorsqu’un joueur se connecte, le jeu s’initialise avec le nombre de clics et le niveau qui correspondent à son compte dans la base de données.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;ii---résultat-à-obtenir&#34;&gt;II - Résultat à obtenir&lt;/h2&gt;&#xA;&lt;center&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/ap-clic/ap-clics.png&#34;&gt;&#xA;&lt;/center&gt;</description>
+    </item>
+    <item>
+      <title>AP SIO 1 : Création d&#39;un site avec Hugo et déploiement avec Github</title>
+      <link>http://localhost:1313/projets/ap-hugo/</link>
+      <pubDate>Thu, 11 Jan 2024 15:15:33 +0100</pubDate>
+      <guid>http://localhost:1313/projets/ap-hugo/</guid>
+      <description>&lt;h2 id=&#34;iprésentation-du-projet&#34;&gt;I.&#x9;Présentation du projet&lt;/h2&gt;&#xA;&lt;p&gt;Lors de l&amp;rsquo;épreuve E4 du BTS, vous devez présenter un portfolio qui contient les réalisations faites au cours de votre formation. Au cours du 1er semestre, vous avez vu comment le faire simplement avec Wix. Cette fois-ci vous allez devoir installer un environnement permettant de faire tourner le framework Hugo. Hugo permet de générer des sites statiques simplement. Il fournit également de nombreux thèmes.&lt;/p&gt;&#xA;&lt;h2 id=&#34;ii-besoins&#34;&gt;II. Besoins&lt;/h2&gt;&#xA;&lt;p&gt;Il sera nécessaire d&amp;rsquo;installer et configurer une machine virtuelle Lubuntu.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AP SIO 1 : Déploiement de machines par le réseau avec FOG Project</title>
+      <link>http://localhost:1313/projets/ap-fog/</link>
+      <pubDate>Wed, 17 Jan 2024 16:55:33 +0100</pubDate>
+      <guid>http://localhost:1313/projets/ap-fog/</guid>
+      <description>&lt;h2 id=&#34;icontexte-de-travail&#34;&gt;I.&#x9;Contexte de travail&lt;/h2&gt;&#xA;&lt;p&gt;L’entreprise CUB possède de nombreux postes clients à mettre à jour et à dépanner lorsque cela est nécessaire. Actuellement, le technicien installe les postes un par un lorsque cela est nécessaire. Cependant, cela demande énormément de temps et n’est pas une solution pérenne.&lt;/p&gt;&#xA;&lt;h2 id=&#34;ii-mission-1--besoins&#34;&gt;II. Mission 1 : Besoins&lt;/h2&gt;&#xA;&lt;p&gt;L’entreprise va renouveler toutes ses machines clientes dans votre agence et souhaite en installer de nouvelles sous &lt;a href=&#34;https://www.microsoft.com/fr-fr/evalcenter/download-windows-10-enterprise&#34;&gt;Windows 10 Entreprise&lt;/a&gt;. Vous êtes chargés de redéployer une image standard de Windows 10 sur toutes les nouvelles machines. Il vous est demandé d’utiliser le logiciel &lt;strong&gt;FOG Project&lt;/strong&gt; que vous installerez sur une &lt;strong&gt;machine virtuelle Lubuntu&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AP SIO 2 : Sécurisation d&#39;un Windows Server 2022</title>
+      <link>http://localhost:1313/projets/ap-win-server/</link>
+      <pubDate>Wed, 17 Jan 2024 17:19:33 +0100</pubDate>
+      <guid>http://localhost:1313/projets/ap-win-server/</guid>
+      <description>&lt;h2 id=&#34;i---contexte-de-travail&#34;&gt;I - Contexte de travail&lt;/h2&gt;&#xA;&lt;p&gt;L&amp;rsquo;entreprise CUB possède de nombreuses agences. Chacune de ces agences doit gérer le compte de ses salariés. Pour le moment tout se fait avec des comptes en local. L&amp;rsquo;administration de tous ces comptes locaux est compliquée.&lt;/p&gt;&#xA;&lt;h2 id=&#34;ii---les-besoins&#34;&gt;II - Les besoins&lt;/h2&gt;&#xA;&lt;p&gt;Vous devez mettre en place un serveur Active Directory dans chacune de vos agences en respectant le cahier des charges permettant de sécuriser le mieux possible votre Active Directory.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AP SIO 2 : Supervision avec Zabbix</title>
+      <link>http://localhost:1313/projets/ap-zabbix/</link>
+      <pubDate>Tue, 09 Jan 2024 13:35:33 +0100</pubDate>
+      <guid>http://localhost:1313/projets/ap-zabbix/</guid>
+      <description>&lt;h2 id=&#34;i---contexte&#34;&gt;I - Contexte&lt;/h2&gt;&#xA;&lt;p&gt;L’entreprise CUB possède de nombreuses machines virtuelles (les serveurs DNS dans les différentes zones, le serveur Web, le pare-feu) ainsi que des équipements réseaux (switchs CISCO). il est important pour la DSI d’avoir un tableau de bord permettant de voir en temps réel l’état des machines et des équipements réseaux.&lt;/p&gt;&#xA;&lt;h2 id=&#34;ii---les-besoins&#34;&gt;II - Les besoins&lt;/h2&gt;&#xA;&lt;p&gt;Il vous est demandé de mettre en place une solution de supervision du réseau (Switchs Cisco) et des machines virtuelles.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AP SIO 2 : Sauvegarde avec Veeam</title>
+      <link>http://localhost:1313/projets/ap-veeam/</link>
+      <pubDate>Thu, 11 Jan 2024 14:08:33 +0100</pubDate>
+      <guid>http://localhost:1313/projets/ap-veeam/</guid>
+      <description>&lt;h2 id=&#34;i---contexte&#34;&gt;I - Contexte&lt;/h2&gt;&#xA;&lt;p&gt;L’entreprise CUB possède de nombreuses agences. Chacune dispose de serveurs et il est impératif de procéder à des sauvegardes régulière de ces serveurs.&lt;/p&gt;&#xA;&lt;p&gt;Afin de ne pas tout perdre en cas d’attaque par Cryptolocker/Ransomware il est impératif de mettre en place une stratégie de sauvegarde immuable.&lt;/p&gt;&#xA;&lt;h2 id=&#34;ii---les-besoins&#34;&gt;II - Les besoins&lt;/h2&gt;&#xA;&lt;p&gt;L’entreprise CUB a donc besoin :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Mettre en place un serveur de sauvegarde sous Windows server avec VEEAM Backup and Replication&lt;/li&gt;&#xA;&lt;li&gt;Installer le serveur de sauvegarde dans le bon VLAN de l’entreprise CUB et prévoir un disque d’au moins 80 GiO pour l’installation de Veeam.&lt;/li&gt;&#xA;&lt;li&gt;Sauvegarder le serveur Windows sur le NAS (172.17.50.211 ou 172.17.50.212 ou 172.17.50.213 ou 172.17.50.214 selon votre bâtiment) avec les identifiants admin/btssio.&lt;/li&gt;&#xA;&lt;li&gt;Sauvegarder 1 serveur Linux sur le NAS.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;iii---procédure&#34;&gt;III - Procédure&lt;/h2&gt;&#xA;&lt;p&gt;Voici le lien de ma procédure&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>AP SIO 1 Découverte et utilisation de Java Script</title>
       <link>http://localhost:1313/projets/java_script/</link>
       <pubDate>Tue, 01 Oct 2024 23:29:21 +0530</pubDate>

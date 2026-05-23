@@ -249,7 +249,7 @@ params:
           url: "https://lyc-decomble.monbureaunumerique.fr/"
         date: "2022 - 2024"
         GPA: "Bien 15.76/20"
-        content: |-
+        #content: |-
       
       - title: "Brevet des Colleges"
         school:
@@ -257,7 +257,7 @@ params:
           url: "https://clg-les-franchises.monbureaunumerique.fr/"
         date: "2018 - 2021"
         
-        content: |-
+        #content: |-
           
         #featuredLink:
          # enable: true
@@ -296,7 +296,7 @@ params:
 
   # projects
   projects:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - title: À definir 
